@@ -1,6 +1,8 @@
 # Age Gender Prediction CNN Network
 
-This is the coursework for CM50265 Machine Learning 2 (Semester 2 - 2022) at the University of Bath. (Grade: 97/100)
+This is the coursework for CM50265 Machine Learning 2 (Semester 2 - 2022) at the University of Bath. 
+
+Grade: 97/100
 
 ## Objective
 
@@ -14,8 +16,9 @@ Two models are built, one from scratch, another with transfer learning.
 
 ![Model A](modelA_architecture.png)
 
-#### Final model performance
-|Number of Epochs| Age MAE| Gender Accuracy|
+#### Final Model Validation Performance
+
+|Number of Epochs|Age MAE| Gender Accuracy|
 |--|--|--|
 |85|6.12|89.40%|
 
@@ -28,7 +31,7 @@ The model has a shared feature extraction pipeline, and two separated branches f
 
 The model uses DenseNet pretrained on ImageNet for feature extraction, and separate branches of fully connected layers for age and gender prediction respectively.
 
-#### Final model performance
+#### Final Model Validation Performance
 
 |Number of Epochs| Age MAE| Gender Accuracy|
 |--|--|--|
