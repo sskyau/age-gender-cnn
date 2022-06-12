@@ -8,7 +8,7 @@ Grade: 97/100
 
 The goal of this project is to develop CNN models to predict the age and gender of people given face images input. The dataset is a subset of 5,000 images from the [UTKFace dataset](https://susanqq.github.io/UTKFace/). 
 
-Two models are built, one from scratch, another with transfer learning.
+Two models are built, one from scratch, another with transfer learning. The final report can be found [here](https://github.com/sskyau/age-gender-cnn/blob/main/CM50265%20Machine%20Learning%202%20-%20CW1%20Report.pdf).
 
 ## Task 1: Model from Scratch
 
