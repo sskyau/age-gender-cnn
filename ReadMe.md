@@ -16,13 +16,14 @@ Two models are built, one from scratch, another with transfer learning. The fina
 
 ![Model A](modelA_architecture.png)
 
+The model has a shared feature extraction pipeline, and two separated branches for age and gender predictions.
+
 #### Final Model Validation Performance
 
 |Number of Epochs|Age MAE| Gender Accuracy|
 |--|--|--|
 |85|6.12|89.40%|
 
-The model has a shared feature extraction pipeline, and two separated branches for age and gender predictions.
 
 ## Task 2: Transfer Learning Model
 
