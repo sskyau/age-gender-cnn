@@ -30,6 +30,6 @@ The model uses DenseNet pretrained on ImageNet for feature extraction, and separ
 
 #### Final model performance
 
-|Number of Finetuning| Age MAE| Gender Accuracy|
+|Number of Epochs| Age MAE| Gender Accuracy|
 |--|--|--|
 |143|5.75|90.53%|
